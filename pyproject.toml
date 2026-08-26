@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "alogos"
+version = "1.0.0"
+description = "A lightweight library for detecting synthetic images using luminance-gradient PCA analysis"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+keywords = ["image-detection", "synthetic-image", "deepfake-detection", "pca", "ai-detection"]
+dependencies = []
+
+[project.optional-dependencies]
+demo = ["Pillow>=9.0"]
+dev  = ["pytest>=7.0", "Pillow>=9.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

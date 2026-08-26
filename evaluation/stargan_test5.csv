@@ -1,0 +1,6 @@
+file,ground_truth,predicted,correct,raw_score,confidence,primary_variance,coherence,kurtosis
+F_STGN_1100-02.png,real,AI,False,1.0,1.0,0.519934,0.081487,4.681444
+F_STGN_1100-03.png,real,AI,False,1.0,1.0,0.591733,0.092592,6.591549
+F_STGN_1100-04.png,real,AI,False,1.0,1.0,0.592316,0.133746,11.100132
+F_STGN_1100-06.png,real,AI,False,1.0,1.0,0.592316,0.133746,11.100132
+F_STGN_1100-08.png,real,AI,False,1.0,1.0,0.609099,0.089848,10.081528
