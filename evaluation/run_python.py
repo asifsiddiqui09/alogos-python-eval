@@ -8,7 +8,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from alogos import SyntheticImageDetector, ImageData, DetectorOptions
+from alogos_python import SyntheticImageDetector, ImageData, DetectorOptions
 
 
 def run(bin_path: str, runs: int = 5, seed=None):
